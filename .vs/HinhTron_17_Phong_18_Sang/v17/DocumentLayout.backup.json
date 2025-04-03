@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\HinhTron_17_Phong_18_Sang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAE02E66-B819-449E-877B-804ABCF4E2FF}|HinhTron_Test_17_Phong_18_Sang\\HinhTron_Test_17_Phong_18_Sang.csproj|d:\\ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\hinhtron_17_phong_18_sang\\hinhtron_test_17_phong_18_sang\\unittest_17_phong_18_sang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAE02E66-B819-449E-877B-804ABCF4E2FF}|HinhTron_Test_17_Phong_18_Sang\\HinhTron_Test_17_Phong_18_Sang.csproj|solutionrelative:hinhtron_test_17_phong_18_sang\\unittest_17_phong_18_sang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED9A667-30DB-4D15-8188-EBFA77B46CB3}|HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang.csproj|d:\\ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\hinhtron_17_phong_18_sang\\hinhtron_17_phong_18_sang\\form_17_phong_18_sang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED9A667-30DB-4D15-8188-EBFA77B46CB3}|HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang.csproj|solutionrelative:hinhtron_17_phong_18_sang\\form_17_phong_18_sang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED9A667-30DB-4D15-8188-EBFA77B46CB3}|HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang.csproj|d:\\ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\hinhtron_17_phong_18_sang\\hinhtron_17_phong_18_sang\\hinhtron_17_phong_18_sang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED9A667-30DB-4D15-8188-EBFA77B46CB3}|HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang.csproj|solutionrelative:hinhtron_17_phong_18_sang\\hinhtron_17_phong_18_sang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest_17_Phong_18_Sang.cs",
+              "DocumentMoniker": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\HinhTron_17_Phong_18_Sang\\HinhTron_Test_17_Phong_18_Sang\\UnitTest_17_Phong_18_Sang.cs",
+              "RelativeDocumentMoniker": "HinhTron_Test_17_Phong_18_Sang\\UnitTest_17_Phong_18_Sang.cs",
+              "ToolTip": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\HinhTron_17_Phong_18_Sang\\HinhTron_Test_17_Phong_18_Sang\\UnitTest_17_Phong_18_Sang.cs*",
+              "RelativeToolTip": "HinhTron_Test_17_Phong_18_Sang\\UnitTest_17_Phong_18_Sang.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T00:19:47.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HinhTron_17_Phong_18_Sang.cs",
+              "DocumentMoniker": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang.cs",
+              "RelativeDocumentMoniker": "HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang.cs",
+              "ToolTip": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang.cs",
+              "RelativeToolTip": "HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T00:09:34.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form_17_Phong_18_Sang.cs",
+              "DocumentMoniker": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang\\Form_17_Phong_18_Sang.cs",
+              "RelativeDocumentMoniker": "HinhTron_17_Phong_18_Sang\\Form_17_Phong_18_Sang.cs",
+              "ToolTip": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang\\Form_17_Phong_18_Sang.cs",
+              "RelativeToolTip": "HinhTron_17_Phong_18_Sang\\Form_17_Phong_18_Sang.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAiwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T00:06:48.275Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

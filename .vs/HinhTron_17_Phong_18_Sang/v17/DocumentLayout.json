@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\Kiem_Thu_Phan_Mem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7625E498-F9A7-4EB4-A699-28FCDDE88CA3}|SeleniumWebDriver_17_Phong_18_Sang\\SeleniumWebDriver_17_Phong_18_Sang.csproj|d:\\ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\kiem_thu_phan_mem\\seleniumwebdriver_17_phong_18_sang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7625E498-F9A7-4EB4-A699-28FCDDE88CA3}|SeleniumWebDriver_17_Phong_18_Sang\\SeleniumWebDriver_17_Phong_18_Sang.csproj|solutionrelative:seleniumwebdriver_17_phong_18_sang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BAE02E66-B819-449E-877B-804ABCF4E2FF}|HinhTron_Test_17_Phong_18_Sang\\HinhTron_Test_17_Phong_18_Sang.csproj|D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\Kiem_Thu_Phan_Mem\\hinhtron_test_17_phong_18_sang\\unittest_17_phong_18_sang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAE02E66-B819-449E-877B-804ABCF4E2FF}|HinhTron_Test_17_Phong_18_Sang\\HinhTron_Test_17_Phong_18_Sang.csproj|solutionrelative:hinhtron_test_17_phong_18_sang\\unittest_17_phong_18_sang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ED9A667-30DB-4D15-8188-EBFA77B46CB3}|HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang.csproj|d:\\ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\kiem_thu_phan_mem\\hinhtron_17_phong_18_sang\\data_17_phong_18_sang\\testdata_17_phong_18_sang.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{9ED9A667-30DB-4D15-8188-EBFA77B46CB3}|HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang.csproj|D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\Kiem_Thu_Phan_Mem\\hinhtron_17_phong_18_sang\\data_17_phong_18_sang\\testdata_17_phong_18_sang.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9ED9A667-30DB-4D15-8188-EBFA77B46CB3}|HinhTron_17_Phong_18_Sang\\HinhTron_17_Phong_18_Sang.csproj|solutionrelative:hinhtron_17_phong_18_sang\\data_17_phong_18_sang\\testdata_17_phong_18_sang.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -18,11 +22,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\Kiem_Thu_Phan_Mem\\SeleniumWebDriver_17_Phong_18_Sang\\Form1.cs",
+              "RelativeDocumentMoniker": "SeleniumWebDriver_17_Phong_18_Sang\\Form1.cs",
+              "ToolTip": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\Kiem_Thu_Phan_Mem\\SeleniumWebDriver_17_Phong_18_Sang\\Form1.cs [Design]",
+              "RelativeToolTip": "SeleniumWebDriver_17_Phong_18_Sang\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:40:01.121Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TestData_17_Phong_18_Sang.csv",
               "DocumentMoniker": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\Kiem_Thu_Phan_Mem\\HinhTron_17_Phong_18_Sang\\Data_17_Phong_18_Sang\\TestData_17_Phong_18_Sang.csv",
               "RelativeDocumentMoniker": "HinhTron_17_Phong_18_Sang\\Data_17_Phong_18_Sang\\TestData_17_Phong_18_Sang.csv",
@@ -30,25 +46,19 @@
               "RelativeToolTip": "HinhTron_17_Phong_18_Sang\\Data_17_Phong_18_Sang\\TestData_17_Phong_18_Sang.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2025-04-03T12:54:16.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T12:54:16.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UnitTest_17_Phong_18_Sang.cs",
               "DocumentMoniker": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\Kiem_Thu_Phan_Mem\\HinhTron_Test_17_Phong_18_Sang\\UnitTest_17_Phong_18_Sang.cs",
               "RelativeDocumentMoniker": "HinhTron_Test_17_Phong_18_Sang\\UnitTest_17_Phong_18_Sang.cs",
               "ToolTip": "D:\\Ki\u1EC3m th\u1EED ph\u1EA7n m\u1EC1m\\Kiem_Thu_Phan_Mem\\HinhTron_Test_17_Phong_18_Sang\\UnitTest_17_Phong_18_Sang.cs",
               "RelativeToolTip": "HinhTron_Test_17_Phong_18_Sang\\UnitTest_17_Phong_18_Sang.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAmwFkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAmwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T13:12:13.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "WhenOpened": "2025-04-03T13:12:13.79Z"
             }
           ]
         }

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HinhTron_17_Phong_18_Sang", "HinhTron_17_Phong_18_Sang\HinhTron_17_Phong_18_Sang.csproj", "{9ED9A667-30DB-4D15-8188-EBFA77B46CB3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HinhTron_Test_17_Phong_18_Sang", "HinhTron_Test_17_Phong_18_Sang\HinhTron_Test_17_Phong_18_Sang.csproj", "{BAE02E66-B819-449E-877B-804ABCF4E2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumWebDriver_17_Phong_18_Sang", "SeleniumWebDriver_17_Phong_18_Sang\SeleniumWebDriver_17_Phong_18_Sang.csproj", "{7625E498-F9A7-4EB4-A699-28FCDDE88CA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BAE02E66-B819-449E-877B-804ABCF4E2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAE02E66-B819-449E-877B-804ABCF4E2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAE02E66-B819-449E-877B-804ABCF4E2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7625E498-F9A7-4EB4-A699-28FCDDE88CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7625E498-F9A7-4EB4-A699-28FCDDE88CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7625E498-F9A7-4EB4-A699-28FCDDE88CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7625E498-F9A7-4EB4-A699-28FCDDE88CA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

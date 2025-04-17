@@ -16,7 +16,7 @@ namespace SeleniumWebDriver_17_Phong_18_Sang
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Web_17_Phong_18_Sang());
         }
     }
 }

@@ -36,7 +36,7 @@ namespace SeleniumWebDriver_17_Phong_18_Sang
             e_Email_17_Phong_18_Sang.SendKeys(txtEmail_17_Phong_18_Sang.Text);
 
             IWebElement e_Password_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.Name("password"));
-            e_Password_17_Phong_18_Sang.SendKeys(txtPass_17_Phong_18_Sang.Text);
+            e_Password_17_Phong_18_Sang.SendKeys(txtPassword_17_Phong_18_Sang.Text);
 
             IWebElement e_LoginButton_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.XPath("//button[@type='submit']"));
             e_LoginButton_17_Phong_18_Sang.Click();
@@ -84,6 +84,80 @@ namespace SeleniumWebDriver_17_Phong_18_Sang
 
             IWebElement searchButton_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.Id("submit_search"));
             searchButton_17_Phong_18_Sang.Click();
+
+        }
+
+        private void btnThanhToan_17_Phong_18_Sang_Click(object sender, EventArgs e)
+        {
+            //Thử chức năng "Thanh toán"
+            string email_17_Phong_18_sang = "tqphong2004@gmail.com";
+            string password_17_Phong_18_sang = "@Phong2k4@";
+
+            ChromeDriverService chrome_17_Phong_18_Sang = ChromeDriverService.CreateDefaultService();
+            chrome_17_Phong_18_Sang.HideCommandPromptWindow = true;
+
+            IWebDriver driver_17_Phong_18_Sang = new ChromeDriver(chrome_17_Phong_18_Sang);
+            driver_17_Phong_18_Sang.Navigate().GoToUrl("https://automationexercise.com/");
+
+            IWebElement loginLink_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.XPath("//a[@href='/login']"));
+            loginLink_17_Phong_18_Sang.Click();
+
+            IWebElement e_Email_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.Name("email"));
+            e_Email_17_Phong_18_Sang.SendKeys(email_17_Phong_18_sang);
+
+            IWebElement e_Password_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.Name("password"));
+            e_Password_17_Phong_18_Sang.SendKeys(password_17_Phong_18_sang);
+
+            IWebElement e_LoginButton_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.XPath("//button[@type='submit']"));
+            e_LoginButton_17_Phong_18_Sang.Click();
+
+            IWebElement cart_Link_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.XPath("//a[@href='/view_cart']"));
+            cart_Link_17_Phong_18_Sang.Click();
+
+            IWebElement checkoutButton_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.ClassName("check_out"));
+            checkoutButton_17_Phong_18_Sang.Click();
+
+            IWebElement order_Link_17_Phong_18_sang = driver_17_Phong_18_Sang.FindElement(By.XPath("//a[@href='/payment']"));
+            order_Link_17_Phong_18_sang.Click();
+
+        }
+
+        private void btnGui_17_Phong_18_Sang_Click(object sender, EventArgs e)
+        {
+            //Thử chức năng "liên hệ"
+            string name_17_Phong_18_Sang = "Phong + Sang";
+            string subject_17_Phong_18_Sang = "TEST SELENIUM";
+            string email_17_Phong_18_Sang = "tqphong2004@gmail.com";
+
+            ChromeDriverService chrome_17_Phong_18_Sang = ChromeDriverService.CreateDefaultService();
+            chrome_17_Phong_18_Sang.HideCommandPromptWindow = true;
+
+            IWebDriver driver_17_Phong_18_Sang = new ChromeDriver(chrome_17_Phong_18_Sang);
+            driver_17_Phong_18_Sang.Navigate().GoToUrl("https://automationexercise.com/");
+
+            IWebElement contact_Link_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.XPath("//a[@href='/contact_us']"));
+            contact_Link_17_Phong_18_Sang.Click();
+
+            IWebElement e_name_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.Name("name"));
+            e_name_17_Phong_18_Sang.SendKeys(name_17_Phong_18_Sang);
+
+            IWebElement e_email_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.Name("email"));
+            e_email_17_Phong_18_Sang.SendKeys(email_17_Phong_18_Sang);
+
+            IWebElement e_subject_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.Name("subject"));
+            e_subject_17_Phong_18_Sang.SendKeys(subject_17_Phong_18_Sang);
+
+            IWebElement e_message_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.Name("message"));
+            e_message_17_Phong_18_Sang.SendKeys(richtxbNoiDung_17_Phong_18_Sang.Text);
+
+
+            IWebElement e_Image_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.Name("upload_file"));
+            e_Image_17_Phong_18_Sang.SendKeys(" C:/Users/Tran Quoc Phong/Downloads/ava.jpg");
+
+
+            // Đóng vì không muốn gửi thật
+            //IWebElement submit_Button_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.ClassName("submit"));
+            //submit_Button_17_Phong_18_Sang.Click();
 
         }
     }

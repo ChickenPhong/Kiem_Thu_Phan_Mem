@@ -7,6 +7,7 @@ namespace HinhTron_Test_17_Phong_18_Sang
     [TestClass]
     public class UnitTest_17_Phong_18_Sang
     {
+        ////4 Pass 2 Fail
         //// TC01: Nhập bán kính = 2, kết quả mong muốn Chu vi = 12.566 (PASS)
         //[TestMethod]
         //public void TC01_Pass_ChuVi_BanKinh()
@@ -39,7 +40,7 @@ namespace HinhTron_Test_17_Phong_18_Sang
         //public void TC04_Pass_DienTich_DuongKinh()
         //{
         //    // (d/2)^2 * π
-        //    double expected = Math.PI * Math.Pow(4.0 / 2, 2); 
+        //    double expected = Math.PI * Math.Pow(4.0 / 2, 2);
         //    double actual = HinhTron.TinhDienTichTuDuongKinh_17_Phong_18_Sang(4);
         //    Assert.AreEqual(expected, actual, 0.001);
         //}
@@ -48,7 +49,7 @@ namespace HinhTron_Test_17_Phong_18_Sang
         //[TestMethod]
         //public void TC05_Fail_ChuVi_BanKinh()
         //{
-        //    double expected = 10.0; 
+        //    double expected = 10.0;
         //    double actual = HinhTron.TinhChuVi_17_Phong_18_Sang(2);
         //    Assert.AreEqual(expected, actual, 0.001);
         //}
@@ -69,11 +70,11 @@ namespace HinhTron_Test_17_Phong_18_Sang
         public void TC07_TestWithDataSource_17_Phong_18_Sang()
         {
             // Lấy dữ liệu từ từng cột trong dòng
-            int  giatri = int.Parse(TestContext.DataRow[0].ToString());
+            int giatri = int.Parse(TestContext.DataRow[0].ToString());
             // loại: 'cv' hoặc 'dt'
             string loai = TestContext.DataRow[1].ToString();
             loai = loai.Substring(1);
-            double expected = Math.Round(double.Parse(TestContext.DataRow[2].ToString()),2);
+            double expected = Math.Round(double.Parse(TestContext.DataRow[2].ToString()), 2);
 
             double actual;
 

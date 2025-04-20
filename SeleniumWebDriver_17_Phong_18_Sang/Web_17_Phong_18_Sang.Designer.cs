@@ -32,7 +32,7 @@
             this.txtPass_17_Phong_18_Sang = new System.Windows.Forms.TabPage();
             this.btn_DangNhapCoSan_17_Phong_18_Sang = new System.Windows.Forms.Button();
             this.btnDangNhap_17_Phong_18_Sang = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtPassword_17_Phong_18_Sang = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtEmail_17_Phong_18_Sang = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -72,7 +72,7 @@
             // 
             this.txtPass_17_Phong_18_Sang.Controls.Add(this.btn_DangNhapCoSan_17_Phong_18_Sang);
             this.txtPass_17_Phong_18_Sang.Controls.Add(this.btnDangNhap_17_Phong_18_Sang);
-            this.txtPass_17_Phong_18_Sang.Controls.Add(this.textBox2);
+            this.txtPass_17_Phong_18_Sang.Controls.Add(this.txtPassword_17_Phong_18_Sang);
             this.txtPass_17_Phong_18_Sang.Controls.Add(this.label2);
             this.txtPass_17_Phong_18_Sang.Controls.Add(this.txtEmail_17_Phong_18_Sang);
             this.txtPass_17_Phong_18_Sang.Controls.Add(this.label1);
@@ -106,13 +106,13 @@
             this.btnDangNhap_17_Phong_18_Sang.UseVisualStyleBackColor = true;
             this.btnDangNhap_17_Phong_18_Sang.Click += new System.EventHandler(this.btnDangNhap_17_Phong_18_Sang_Click);
             // 
-            // textBox2
+            // txtPassword_17_Phong_18_Sang
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(163, 119);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(355, 39);
-            this.textBox2.TabIndex = 1;
+            this.txtPassword_17_Phong_18_Sang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword_17_Phong_18_Sang.Location = new System.Drawing.Point(163, 119);
+            this.txtPassword_17_Phong_18_Sang.Name = "txtPassword_17_Phong_18_Sang";
+            this.txtPassword_17_Phong_18_Sang.Size = new System.Drawing.Size(355, 39);
+            this.txtPassword_17_Phong_18_Sang.TabIndex = 1;
             // 
             // label2
             // 
@@ -216,6 +216,7 @@
             this.btnThanhToan_17_Phong_18_Sang.TabIndex = 9;
             this.btnThanhToan_17_Phong_18_Sang.Text = "Thanh Toán";
             this.btnThanhToan_17_Phong_18_Sang.UseVisualStyleBackColor = true;
+            this.btnThanhToan_17_Phong_18_Sang.Click += new System.EventHandler(this.btnThanhToan_17_Phong_18_Sang_Click);
             // 
             // label5
             // 
@@ -259,6 +260,7 @@
             this.btnGui_17_Phong_18_Sang.TabIndex = 9;
             this.btnGui_17_Phong_18_Sang.Text = "Gửi";
             this.btnGui_17_Phong_18_Sang.UseVisualStyleBackColor = true;
+            this.btnGui_17_Phong_18_Sang.Click += new System.EventHandler(this.btnGui_17_Phong_18_Sang_Click);
             // 
             // label6
             // 
@@ -311,7 +313,7 @@
         private System.Windows.Forms.TextBox txtEmail_17_Phong_18_Sang;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnDangNhap_17_Phong_18_Sang;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtPassword_17_Phong_18_Sang;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_DangNhapCoSan_17_Phong_18_Sang;
         private System.Windows.Forms.Label label4;

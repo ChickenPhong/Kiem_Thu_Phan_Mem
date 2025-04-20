@@ -67,6 +67,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Data_17_Phong_18_Sang\DataExcel_17_Phong_18_Sang.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Data_17_Phong_18_Sang\TestData_17_Phong_18_Sang.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

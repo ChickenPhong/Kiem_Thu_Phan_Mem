@@ -65,6 +65,7 @@ namespace HinhTron_Test_17_Phong_18_Sang
 
         public TestContext TestContext { get; set; }
 
+        // Đọc file csv để test
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data_17_Phong_18_Sang\TestData_17_Phong_18_Sang.csv", "TestData_17_Phong_18_Sang#csv", DataAccessMethod.Sequential)]
         [TestMethod]
         public void TC07_TestWithDataSource_17_Phong_18_Sang()
@@ -80,10 +81,37 @@ namespace HinhTron_Test_17_Phong_18_Sang
 
             if (loai == "cv")
             {
-                actual = Math.Round(HinhTron.TinhChuVi_17_Phong_18_Sang(giatri), 2); // làm tròn giống file
+                // làm tròn giống file
+                actual = Math.Round(HinhTron.TinhChuVi_17_Phong_18_Sang(giatri), 2); 
             }
             else
             {
+                actual = Math.Round(HinhTron.TinhDienTich_17_Phong_18_Sang(giatri), 2);
+            }
+
+            Assert.AreEqual(expected, actual, 0.01);
+        }
+
+        // đọc file xlsx để test
+        [DataSource(
+    "System.Data.OleDb",
+    "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\Data_17_Phong_18_Sang\\DataExcel_17_Phong_18_Sang.xlsx;Extended Properties='Excel 12.0 Xml;HDR=YES;'",
+    "Sheet1$",DataAccessMethod.Sequential)]
+        [TestMethod]
+        public void TC08_TestWithExcelDataSource_17_Phong_18_Sang()
+        {
+            int giatri = int.Parse(TestContext.DataRow["giatri"].ToString());
+            string loai = TestContext.DataRow["loai"].ToString().Trim();
+            double expected = Math.Round(double.Parse(TestContext.DataRow["expected"].ToString()), 2);
+
+            double actual;
+            if (loai == "cv")
+            {
+                actual = Math.Round(HinhTron.TinhChuVi_17_Phong_18_Sang(giatri), 2);
+            }
+            else 
+            {
+
                 actual = Math.Round(HinhTron.TinhDienTich_17_Phong_18_Sang(giatri), 2);
             }
 

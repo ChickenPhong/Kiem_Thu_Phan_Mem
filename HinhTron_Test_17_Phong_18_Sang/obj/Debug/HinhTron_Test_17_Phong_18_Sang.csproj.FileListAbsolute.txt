@@ -20,6 +20,7 @@ D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_Test_17_Phong_18_Sang\bi
 D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_Test_17_Phong_18_Sang\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_Test_17_Phong_18_Sang\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_Test_17_Phong_18_Sang\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_Test_17_Phong_18_Sang\bin\Debug\Data_17_Phong_18_Sang\DataExcel_17_Phong_18_Sang.xlsx
 D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_Test_17_Phong_18_Sang\bin\Debug\Data_17_Phong_18_Sang\TestData_17_Phong_18_Sang.csv
 D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_Test_17_Phong_18_Sang\bin\Debug\HinhTron_Test_17_Phong_18_Sang.dll
 D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_Test_17_Phong_18_Sang\bin\Debug\HinhTron_Test_17_Phong_18_Sang.pdb

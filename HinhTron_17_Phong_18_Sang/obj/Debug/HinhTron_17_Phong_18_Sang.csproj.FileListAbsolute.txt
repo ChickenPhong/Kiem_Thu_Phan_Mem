@@ -8,7 +8,6 @@ D:\Kiểm thử phần mềm\HinhTron_17_Phong_18_Sang\HinhTron_17_Phong_18_Sang
 D:\Kiểm thử phần mềm\HinhTron_17_Phong_18_Sang\HinhTron_17_Phong_18_Sang\obj\Debug\HinhTron_17_Phong_18_Sang.csproj.CoreCompileInputs.cache
 D:\Kiểm thử phần mềm\HinhTron_17_Phong_18_Sang\HinhTron_17_Phong_18_Sang\obj\Debug\HinhTron_17_Phong_18_Sang.exe
 D:\Kiểm thử phần mềm\HinhTron_17_Phong_18_Sang\HinhTron_17_Phong_18_Sang\obj\Debug\HinhTron_17_Phong_18_Sang.pdb
-D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_17_Phong_18_Sang\bin\Debug\Data_17_Phong_18_Sang\DataExcel_17_Phong_18_Sang.xlsx
 D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_17_Phong_18_Sang\bin\Debug\Data_17_Phong_18_Sang\TestData_17_Phong_18_Sang.csv
 D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_17_Phong_18_Sang\bin\Debug\HinhTron_17_Phong_18_Sang.exe.config
 D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_17_Phong_18_Sang\bin\Debug\HinhTron_17_Phong_18_Sang.exe
@@ -20,3 +19,4 @@ D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_17_Phong_18_Sang\obj\Deb
 D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_17_Phong_18_Sang\obj\Debug\HinhTron_17_Phong_18_Sang.csproj.CoreCompileInputs.cache
 D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_17_Phong_18_Sang\obj\Debug\HinhTron_17_Phong_18_Sang.exe
 D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_17_Phong_18_Sang\obj\Debug\HinhTron_17_Phong_18_Sang.pdb
+D:\Kiểm thử phần mềm\Kiem_Thu_Phan_Mem\HinhTron_17_Phong_18_Sang\bin\Debug\Data_17_Phong_18_Sang\DataExcel_17_Phong_18_Sang.xlsx

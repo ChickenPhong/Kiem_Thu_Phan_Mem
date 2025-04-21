@@ -1,5 +1,9 @@
-giatri,loai,expected
-2,'cv,12.57
-5,'dt,78.54
-7,'cv,15.00
-3,'dt,30.00
+loai_17_Phong_18_Sang,giaTri_17_Phong_18_Sang,tinh_17_Phong_18_Sang,ketQuaMongDoi_17_Phong_18_Sang
+'bk,2,'cv,12.57
+'bk,5,'dt,78.54
+'dk,7,'cv,21.99
+'dk,3,'dt,7.07
+'bk,2,'cv,30.00
+'bk,4,'dt,45.09
+'dk,3,'cv,20.00
+'dk,3,'dt,50.00

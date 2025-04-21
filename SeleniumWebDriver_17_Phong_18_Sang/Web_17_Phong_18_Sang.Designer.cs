@@ -49,11 +49,17 @@
             this.btnGui_17_Phong_18_Sang = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.btYouTube = new System.Windows.Forms.Button();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.btChiTietSanPham = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.txtPass_17_Phong_18_Sang.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage5.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -62,6 +68,8 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Location = new System.Drawing.Point(65, 44);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -282,6 +290,48 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "Nội dung:";
             // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.btYouTube);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(809, 398);
+            this.tabPage1.TabIndex = 4;
+            this.tabPage1.Text = "YouTube";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // btYouTube
+            // 
+            this.btYouTube.Location = new System.Drawing.Point(576, 277);
+            this.btYouTube.Name = "btYouTube";
+            this.btYouTube.Size = new System.Drawing.Size(187, 73);
+            this.btYouTube.TabIndex = 0;
+            this.btYouTube.Text = "Điều hướng sang kênh YouTube của NPT";
+            this.btYouTube.UseVisualStyleBackColor = true;
+            this.btYouTube.Click += new System.EventHandler(this.btYouTube_Click);
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.btChiTietSanPham);
+            this.tabPage5.Location = new System.Drawing.Point(4, 29);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(809, 398);
+            this.tabPage5.TabIndex = 5;
+            this.tabPage5.Text = "Xem chi tiết sản phẩm";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // btChiTietSanPham
+            // 
+            this.btChiTietSanPham.Location = new System.Drawing.Point(501, 252);
+            this.btChiTietSanPham.Name = "btChiTietSanPham";
+            this.btChiTietSanPham.Size = new System.Drawing.Size(183, 70);
+            this.btChiTietSanPham.TabIndex = 0;
+            this.btChiTietSanPham.Text = "Xem chi tiết sản phẩm";
+            this.btChiTietSanPham.UseVisualStyleBackColor = true;
+            this.btChiTietSanPham.Click += new System.EventHandler(this.btChiTietSanPham_Click);
+            // 
             // Web_17_Phong_18_Sang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -299,6 +349,8 @@
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -326,6 +378,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.RichTextBox richtxbNoiDung_17_Phong_18_Sang;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Button btYouTube;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.Button btChiTietSanPham;
     }
 }
 

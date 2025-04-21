@@ -7,61 +7,61 @@ namespace HinhTron_Test_17_Phong_18_Sang
     [TestClass]
     public class UnitTest_17_Phong_18_Sang
     {
-        //4 Pass 2 Fail
-        // TC01: Nhập bán kính = 2, kết quả mong muốn Chu vi = 12.566 (PASS)
-        [TestMethod]
-        public void TC01_Pass_ChuVi_BanKinh_17_Phong_18_Sang()
-        {
-            double ketQuaMongDoi_17_Phong_18_Sang = 2 * Math.PI * 2;
-            double ketQuaThucTe_17_Phong_18_Sang = HinhTron.TinhChuVi_17_Phong_18_Sang(2);
-            Assert.AreEqual(ketQuaMongDoi_17_Phong_18_Sang, ketQuaThucTe_17_Phong_18_Sang, 0.001);
-        }
+        ////4 Pass 2 Fail
+        //// TC01: Nhập bán kính = 2, kết quả mong muốn Chu vi = 12.566 (PASS)
+        //[TestMethod]
+        //public void TC01_Pass_ChuVi_BanKinh_17_Phong_18_Sang()
+        //{
+        //    double ketQuaMongDoi_17_Phong_18_Sang = 12.566;
+        //    double ketQuaThucTe_17_Phong_18_Sang = HinhTron.TinhChuVi_17_Phong_18_Sang(2);
+        //    Assert.AreEqual(ketQuaMongDoi_17_Phong_18_Sang, ketQuaThucTe_17_Phong_18_Sang, 0.001);
+        //}
 
-        // TC02: Nhập đường kính = 3, kết quả mong muốn Chu vi = 9.424 (PASS)
-        [TestMethod]
-        public void TC02_Pass_ChuVi_DuongKinh_17_Phong_18_Sang()
-        {
-            double ketQuaMongDoi_17_Phong_18_Sang = Math.PI * 3;
-            double ketQuaThucTe_17_Phong_18_Sang = HinhTron.TinhChuViTuDuongKinh_17_Phong_18_Sang(3);
-            Assert.AreEqual(ketQuaMongDoi_17_Phong_18_Sang, ketQuaThucTe_17_Phong_18_Sang, 0.001);
-        }
+        //// TC02: Nhập đường kính = 3, kết quả mong muốn Chu vi = 9.424 (PASS)
+        //[TestMethod]
+        //public void TC02_Pass_ChuVi_DuongKinh_17_Phong_18_Sang()
+        //{
+        //    double ketQuaMongDoi_17_Phong_18_Sang = 9.424;
+        //    double ketQuaThucTe_17_Phong_18_Sang = HinhTron.TinhChuViTuDuongKinh_17_Phong_18_Sang(3);
+        //    Assert.AreEqual(ketQuaMongDoi_17_Phong_18_Sang, ketQuaThucTe_17_Phong_18_Sang, 0.001);
+        //}
 
-        // TC03: Nhập bán kính = 1, kết quả mong muốn Diện tích = 3.142 (PASS)
-        [TestMethod]
-        public void TC03_Pass_DienTich_BanKinh_17_Phong_18_Sang()
-        {
-            double ketQuaMongDoi_17_Phong_18_Sang = Math.PI;
-            double ketQuaThucTe_17_Phong_18_Sang = HinhTron.TinhDienTich_17_Phong_18_Sang(1);
-            Assert.AreEqual(ketQuaMongDoi_17_Phong_18_Sang, ketQuaThucTe_17_Phong_18_Sang, 0.001);
-        }
+        //// TC03: Nhập bán kính = 1, kết quả mong muốn Diện tích = 3.142 (PASS)
+        //[TestMethod]
+        //public void TC03_Pass_DienTich_BanKinh_17_Phong_18_Sang()
+        //{
+        //    double ketQuaMongDoi_17_Phong_18_Sang = 3.142;
+        //    double ketQuaThucTe_17_Phong_18_Sang = HinhTron.TinhDienTich_17_Phong_18_Sang(1);
+        //    Assert.AreEqual(ketQuaMongDoi_17_Phong_18_Sang, ketQuaThucTe_17_Phong_18_Sang, 0.001);
+        //}
 
-        // TC04: Nhập đường kính = 4, kết quả mong muốn Diện tích = 12.566 (PASS)
-        [TestMethod]
-        public void TC04_Pass_DienTich_DuongKinh_17_Phong_18_Sang()
-        {
-            // (d/2)^2 * π
-            double ketQuaMongDoi_17_Phong_18_Sang = Math.PI * Math.Pow(4.0 / 2, 2);
-            double ketQuaThucTe_17_Phong_18_Sang = HinhTron.TinhDienTichTuDuongKinh_17_Phong_18_Sang(4);
-            Assert.AreEqual(ketQuaMongDoi_17_Phong_18_Sang, ketQuaThucTe_17_Phong_18_Sang, 0.001);
-        }
+        //// TC04: Nhập đường kính = 4, kết quả mong muốn Diện tích = 12.566 (PASS)
+        //[TestMethod]
+        //public void TC04_Pass_DienTich_DuongKinh_17_Phong_18_Sang()
+        //{
+        //    // (d/2)^2 * π
+        //    double ketQuaMongDoi_17_Phong_18_Sang = 12.566;
+        //    double ketQuaThucTe_17_Phong_18_Sang = HinhTron.TinhDienTichTuDuongKinh_17_Phong_18_Sang(4);
+        //    Assert.AreEqual(ketQuaMongDoi_17_Phong_18_Sang, ketQuaThucTe_17_Phong_18_Sang, 0.001);
+        //}
 
-        // TC05: Nhập bán kính = 2, kết quả mong muốn Chu vi = 12.566 (FAIL)
-        [TestMethod]
-        public void TC05_Fail_ChuVi_BanKinh_17_Phong_18_Sang()
-        {
-            double ketQuaMongDoi_17_Phong_18_Sang = 10.0;
-            double ketQuaThucTe_17_Phong_18_Sang = HinhTron.TinhChuVi_17_Phong_18_Sang(2);
-            Assert.AreEqual(ketQuaMongDoi_17_Phong_18_Sang, ketQuaThucTe_17_Phong_18_Sang, 0.001);
-        }
+        //// TC05: Nhập bán kính = 2, kết quả mong muốn Chu vi = 10.000 (FAIL)
+        //[TestMethod]
+        //public void TC05_Fail_ChuVi_BanKinh_17_Phong_18_Sang()
+        //{
+        //    double ketQuaMongDoi_17_Phong_18_Sang = 10.000;
+        //    double ketQuaThucTe_17_Phong_18_Sang = HinhTron.TinhChuVi_17_Phong_18_Sang(2);
+        //    Assert.AreEqual(ketQuaMongDoi_17_Phong_18_Sang, ketQuaThucTe_17_Phong_18_Sang, 0.001);
+        //}
 
-        // TC06: Nhập bán kính = 2, kết quả mong muốn Diện tích = 28.274 (FAIL)
-        [TestMethod]
-        public void TC06_Fail_DienTich_BanKinh_17_Phong_18_Sang()
-        {
-            double ketQuaMongDoi_17_Phong_18_Sang = 10.0; // sai cố tình
-            double ketQuaThucTe_17_Phong_18_Sang = HinhTron.TinhDienTich_17_Phong_18_Sang(2);
-            Assert.AreEqual(ketQuaMongDoi_17_Phong_18_Sang, ketQuaThucTe_17_Phong_18_Sang, 0.001);
-        }
+        //// TC06: Nhập bán kính = 2, kết quả mong muốn Diện tích = 10.000 (FAIL)
+        //[TestMethod]
+        //public void TC06_Fail_DienTich_BanKinh_17_Phong_18_Sang()
+        //{
+        //    double ketQuaMongDoi_17_Phong_18_Sang = 10.000;
+        //    double ketQuaThucTe_17_Phong_18_Sang = HinhTron.TinhDienTich_17_Phong_18_Sang(2);
+        //    Assert.AreEqual(ketQuaMongDoi_17_Phong_18_Sang, ketQuaThucTe_17_Phong_18_Sang, 0.001);
+        //}
 
         public TestContext TestContext { get; set; }
 

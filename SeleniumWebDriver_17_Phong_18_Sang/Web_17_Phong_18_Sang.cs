@@ -160,5 +160,37 @@ namespace SeleniumWebDriver_17_Phong_18_Sang
             //submit_Button_17_Phong_18_Sang.Click();
 
         }
+
+        private void btYouTube_Click(object sender, EventArgs e)
+        {
+            // Thử chức năng " Chuyển sang kênh YouTube của NPT "
+            ChromeDriverService chrome_17_Phong_18_Sang = ChromeDriverService.CreateDefaultService();
+            chrome_17_Phong_18_Sang.HideCommandPromptWindow = true;
+
+            IWebDriver driver_17_Phong_18_Sang = new ChromeDriver(chrome_17_Phong_18_Sang);
+            driver_17_Phong_18_Sang.Navigate().GoToUrl("https://automationexercise.com/");
+
+            IWebElement youtubeLink_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(
+        By.XPath("//a[contains(text(),'Video Tutorials')]"));
+
+            youtubeLink_17_Phong_18_Sang.Click();
+        }
+
+        private void btChiTietSanPham_Click(object sender, EventArgs e)
+        {
+            // Thử chức năng "Xem chi tiết sản phẩm"
+            ChromeDriverService chrome_17_Phong_18_Sang = ChromeDriverService.CreateDefaultService();
+            chrome_17_Phong_18_Sang.HideCommandPromptWindow = true;
+
+            IWebDriver driver_17_Phong_18_Sang = new ChromeDriver(chrome_17_Phong_18_Sang);
+            driver_17_Phong_18_Sang.Navigate().GoToUrl("https://automationexercise.com/");
+
+            IWebElement productsLink_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.XPath("//a[@href='/products']"));
+            productsLink_17_Phong_18_Sang.Click();
+
+            IWebElement viewProduct_17_Phong_18_Sang = driver_17_Phong_18_Sang.FindElement(By.XPath("//a[@href='/product_details/1']"));
+            viewProduct_17_Phong_18_Sang.Click();
+
+        }
     }
 }
